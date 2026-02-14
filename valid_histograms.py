@@ -24,4 +24,4 @@ for n in range(322):
         choose[n][k] = choose[n-1][k-1] + choose[n-1][k]
 
 def id_to_selection(num, id):
-    pass
+    
